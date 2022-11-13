@@ -45,10 +45,10 @@ public class ArtASCII {
                 "***********"};
         String[] p = new String[]{"***********", "*         *", "*         *", "***********", "*          ",
                 "*          "};
-        String[] q = new String[]{"***********", "*         *", "*         *", "*     *   *", "***********",
-                "        *  "};
         String[] r = new String[]{"********** ", "*         *", "*         *", "********** ", "      **   ",
                 "        ***"};
+        String[] q = new String[]{"***********", "*         *", "*         *", "*     *   *", "***********",
+                "        *  "};
         String[] s = new String[]{"       *** ", "*          ", "**         ", "  *****    ", "       *   ",
                 "*******    "};
         String[] t = new String[]{"***********", "     *     ", "     *     ", "     *     ", "     *     ",
@@ -82,8 +82,8 @@ public class ArtASCII {
         map.put('n', n);
         map.put('o', o);
         map.put('p', p);
-        map.put('q', q);
         map.put('r', r);
+        map.put('q', q);
         map.put('s', s);
         map.put('t', t);
         map.put('u', u);

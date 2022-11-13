@@ -24,7 +24,7 @@ public class Dictionary {
     }
 
     public void saveToDictionary(Map<String, String> words) {
-        try(FileWriter writer = new FileWriter("dictionary.txt", true)) {
+        try(FileWriter writer = new FileWriter("C:\\Lesson10\\dictionary.txt", true)) {
             for(Map.Entry<String, String> map : words.entrySet()) {
                 writer.write(map.getKey() + "-" + map.getValue() + System.lineSeparator());
             }
