@@ -21,10 +21,10 @@ public class RemoveLetterStart {
 //        list.removeIf(prd);
 //        System.out.println(list);
 
-//        Predicate<String> prd1 = (a) -> a.toLowerCase().startsWith(String.valueOf(chars[0]));
-//        Predicate<String> prd2 = (b) -> b.toLowerCase().startsWith(String.valueOf(chars[1]));
-//        Predicate<String> prd3 = (c) -> c.toLowerCase().startsWith(String.valueOf(chars[2]));
-//        list.removeIf(prd1.or(prd2).or(prd3));
-//        System.out.println(list);
+        Predicate<String> prd1 = (a) -> a.toLowerCase().startsWith(String.valueOf(chars[0]));
+        Predicate<String> prd2 = (b) -> b.toLowerCase().startsWith(String.valueOf(chars[1]));
+        Predicate<String> prd3 = (c) -> c.toLowerCase().startsWith(String.valueOf(chars[2]));
+        list.removeIf(prd1.or(prd2).or(prd3));
+        System.out.println(list);
     }
 }
