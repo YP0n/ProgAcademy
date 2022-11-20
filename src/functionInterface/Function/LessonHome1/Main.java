@@ -1,5 +1,11 @@
 package functionInterface.Function.LessonHome1;
 
+/*
+1) С помощью реализации Function<Integer[],Integer> и реализации Predicate<Integer> (да нужно
+вспоминать и предыдущую лекцию ☺) реализуйте функцию которая вернет количество простых
+чисел в массиве целых чисел. Например [5,6,7,8,9,10] => 2
+ */
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
