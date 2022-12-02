@@ -25,7 +25,7 @@ public class Main {
 //        }
 //        System.out.println(htmlText);
 
-        String spez = "https://lms.prog.kiev.ua/pluginfile.php/23339/mod_resource/content/1/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D1%8B.mp4";
+        String spez = "https://lms.prog.kiev.ua/pluginfile.php/1561/mod_lesson/page_contents/88/JavaOOP-Ts22.mp4";
         File folder = new File("MP4");
         folder.mkdirs();
 
