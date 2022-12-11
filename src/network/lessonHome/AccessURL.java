@@ -26,12 +26,12 @@ public class AccessURL {
                     URL url = new URL(temp);
                     HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                     if(connection.getResponseCode() == 200) {
-                        System.out.println(temp + "is available");
+                        System.out.println(temp + " is available");
                     } else {
-                        System.out.println(temp + "is not available");
+                        System.out.println(temp + " is not available");
                     }
                 } catch (IOException e) {
-                    System.out.println(e.toString() + "Error this url not available");
+                    System.out.println(e.toString() + " Error this url not available");
                 }
             }
         }
